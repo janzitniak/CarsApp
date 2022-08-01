@@ -25,6 +25,6 @@ public class CarsApp {
             System.out.println("----------------------");
             searchedCarByPlateNumber.getAllVinInformation();
         }
-
+        // my another local changes /on Intellij IDEA/
     }
 }
