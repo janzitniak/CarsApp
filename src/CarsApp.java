@@ -13,6 +13,7 @@ public class CarsApp {
         ArrayList<Car> carTestList = cars.getTestList();
         //cars.showAllInformation(carTestList); // show all information of all cars
         //some changes by another user /on github.com directly/
+        //my local changes /on Intellij IDEA/
         Car searchedCarByPlateNumber = car.getByPlateNumber("BB-001AK", carTestList);
         if (searchedCarByPlateNumber != null) {
             System.out.println();
